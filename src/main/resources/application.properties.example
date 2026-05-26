@@ -1,0 +1,11 @@
+spring.application.name=together1-api
+
+# Configuration de la base de données (Exemple à copier dans application.properties)
+spring.datasource.url=jdbc:postgresql://localhost:5432/together1
+spring.datasource.username=votre_utilisateur
+spring.datasource.password=votre_mot_de_passe
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
